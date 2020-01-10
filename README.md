@@ -7,8 +7,8 @@
 
 ![java-1.8](https://img.shields.io/badge/java-1.8-green.svg)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/tim232385/PornBot/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/tim232385/PornBot.svg?branch=master)](https://travis-ci.org/tim232385/WebVideoBot)
-[![HitCount](http://hits.dwyl.io/tim232385/PornBot.svg)](http://hits.dwyl.io/tim232385/PornBot)
+<!--[![Build Status](https://travis-ci.org/tim232385/PornBot.svg?branch=master)](https://travis-ci.org/tim232385/WebVideoBot)
+[![HitCount](http://hits.dwyl.io/tim232385/PornBot.svg)](http://hits.dwyl.io/tim232385/PornBot)-->
 
 <!-- [![Code Coverage](https://codecov.io/github/tim232385/PornBot/coverage.svg)](https://codecov.io/gh/tim232385/PornBot)-->
 <!-- 
@@ -26,8 +26,11 @@
 
 - Spring Boot x H2 Db
 
-#### Run
-``java -jar PornBot.jar``
+#### How to use
+`` git clone https://github.com/tim232385/WebVideoBot.git ``  
+`` cd WebVideoBot ``  
+`` java -jar PornBot.jar``  
+`` **DOWNLOAD_VIDEO default is N**`` [See Default Configuration](https://github.com/tim232385/PornBot/blob/master/config.properties)
 
 ![Demo](https://raw.githubusercontent.com/tim232385/PornBot/master/image/5thread.gif)
 ![h2_console](https://raw.githubusercontent.com/tim232385/PornBot/master/image/h2_console.gif)
@@ -74,4 +77,9 @@ Record Table：
  START_URL                ：Crawling url.
  DOWNLOAD_VIDEO           ：Download video. Y or N.
 ```
-[See Default Configuration](https://github.com/tim232385/PornBot/blob/master/config.properties)
+[See Default Configuration](https://github.com/tim232385/PornBot/blob/master/config.properties
+
+
+## Stargazers over time
+
+[![Stargazers over time](https://starcharts.herokuapp.com/tim232385/WebVideoBot.svg)](https://starcharts.herokuapp.com/tim232385/WebVideoBot)
